@@ -1,34 +1,34 @@
 #app-mount {
-	.cozy-VmLDNB .header-23xsNx {
+	.c19a557985eb7793-cozy .header-23xsNx {
 		margin-left: 0;
 		padding-left: 0;
 	}
-	.message-G6O-Wv {
+	.fd14e024a43b9049-message {
 		background: transparent;
 		box-shadow: none;
 	}
 	// Attachments,pings,codeblocks ect...
-	.message-2CShn3 {
+	._5126c0cd07f243a0-message {
 		background: transparent !important;
-		.reaction-1hd86g {
-			background: var(--white);
-			&.reactionMe-wv5HKu {
+		._23977d5b7cef7361-reaction {
+			background: var(--foreground);
+			&._23977d5b7cef7361-reactionMe {
 				background: var(--gradient);
-				.reactionCount-2mvXRV {
+				._23977d5b7cef7361-reactionCount {
 					color: var(--text-normal);
 				}
 			}
 		}
-		.wrapper-2vIMkT {
+		.f7ecaca5c80dbf3a-wrapper {
 			background: var(--background-secondary);
 		}
-		.attachment-33OFj0,
-		.wrapperAudio-1jDe0Q,
+		._0ccaee68b77c7469-file,
+		.cf09d85aafe7e124-wrapperAudio,
 		code {
 			background-color: var(--chat-embed);
 			border: none;
 		}
-		.embedFull-2tM8-- {
+		._623de82e76ad7f82-embedFull {
 			background-color: var(--chat-embed);
 		}
 	}
@@ -36,14 +36,20 @@
 		color: var(--text-default);
 	}
 	// Mentions
-	.mentioned-Tre-dv {
+	._5126c0cd07f243a0-mentioned {
 		background: var(--gradient-20) !important;
 		&::before {
 			background: var(--gradient);
 		}
 	}
-	.wrapper-1ZcZW- {
+
+	//Username or channel mention
+	._4106ae7c1472c1de-wrapper {
 		background: var(--gradient);
 		color: var(--text-normal);
+	}
+
+	.popoverReactionHoverBar_f84418 {
+		backdrop-filter: blur(6px);
 	}
 }

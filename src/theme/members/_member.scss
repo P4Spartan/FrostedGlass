@@ -1,25 +1,28 @@
-#app-mount .member-2gU6Ar {
+#app-mount ._5d473ecff348c314-member {
 	background: transparent;
-	&.selected-1-Z6gm {
-		.layout-1qmrhw {
+	&._91a9d7f7e5248a56-selected {
+		._91a9d7f7e5248a56-childContainer{
+			background: var(--gradient);
+		}
+		._91a9d7f7e5248a56-layout {
 			background: var(--gradient);
 		}
 		.roleColor-nA7BqX {
 			color: var(--text-normal) !important;
 		}
-		.botTagRegular-2HEhHi {
+		.botTagRegular_c89c9a {
 			background: var(--text-normal);
 			color: rgb(var(--gradient-primary));
 			margin-top: 0;
 		}
-		.botText-1fD6Qk {
+		._82f0793afa59e5dc-botText {
 			font-weight: 900;
 		}
 		.premiumIcon-1rDbWQ {
 			color: var(--text-normal);
 		}
-		.username-3_PJ5r,
-		.activity-2EQDZv {
+		.username_d272d6,
+		.activity__5d473 {
 			color: #fff !important;
 		}
 	}

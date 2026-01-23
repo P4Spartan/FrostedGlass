@@ -1,3 +1,18 @@
-#app-mount .title-3qD0b- .searchBar-zdmu7v {
-	background: var(--background-secondary);
+#app-mount .f75fb00fb7356cbe-title {
+	background: transparent;
+	._974928fe84ca9647-searchBar {
+		border: none;
+		background: var(--background-secondary);
+	}
+	._9293f6b2fc12398a-children::after {
+		content: none;
+	}
+}
+
+// Makes the top bar more easily grabbable
+._421edea01cb52e16-titleBar {
+	height: 20px !important;
+	-webkit-app-region: drag;
+	pointer-events: none;
+	top: 0;
 }

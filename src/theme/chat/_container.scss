@@ -1,26 +1,50 @@
-#app-mount {
-	.content-1jQy2l::before {
+@use '@discordstyles/classes' as *;
+
+#{cls('mount')} {
+	//#region Chat
+	#{cls('chat.messages.container')} {
+		background: transparent;
+	}
+
+	#{cls('chat.content')}::before {
 		content: none;
 	}
-	.chat-2ZfjoI {
+
+	#{cls('chat.skeleton')} {
+		background: var(--background-primary);
+	}
+
+	#{cls('chat.container')} {
+		border: none;
 		background: rgb(0, 0, 0, var(--middle-brightness));
 	}
-	.messages-3amgkR {
+
+	#{cls('chat.messages.container')} {
 		background-color: transparent;
 		text-shadow: 0 2px 5px rgb(0, 0, 0, var(--text-shadow));
 	}
-	.newMessagesBar-1hF-9G {
+
+	#{cls('chat.bars.newMessages.container')} {
 		background: var(--gradient);
 		opacity: 1;
 		box-shadow: 0 2px 5px rgb(0, 0, 0, 0.5);
+		z-index: 3;
 	}
-	.jumpToPresentBar-1cEnH0 {
+
+	#{cls('chat.bars.jumpTo')} {
 		border-radius: 8px;
-		background-color: var(--white-double);
+		background-color: var(--foreground-double);
+		backdrop-filter: blur(10px);
 		padding-bottom: 0;
 		bottom: 10px;
 		&:hover {
-			background-color: var(--white-triple);
+			background-color: var(--foreground-triple);
 		}
 	}
+
+	// TODO: add this this discordclasses
+	._36d072eab2b2e737-chatGradientBase {
+		display: none;
+	}
+	//#endregion Chat
 }

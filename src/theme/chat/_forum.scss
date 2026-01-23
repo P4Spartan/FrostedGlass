@@ -2,20 +2,20 @@
 	.container-3wLKDe {
 		background: transparent;
 	}
-	.container-2qVG6q {
+	.f369dba7416c67f0-container {
 		background: var(--background-secondary);
 	}
-	.header-1Uy0p6 {
+	.f369dba7416c67f0-header {
 		background: var(--background-secondary);
 		.title-1v5ZfI {
 			background: transparent;
 		}
 	}
-	.pill-3pRQlO {
-		background: var(--white);
+	.a2c9e80f6531ccc2-pill {
+		background: var(--foreground);
 		transition: 0.15s ease background;
 		&:hover {
-			background: var(--white-double);
+			background: var(--foreground-double);
 		}
 	}
 }

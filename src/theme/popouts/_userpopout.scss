@@ -1,4 +1,4 @@
-#app-mount .userPopoutOuter-1OHwPL {
+#app-mount .userPopoutOuter_c69a7b {
 	box-shadow: none;
 	overflow: hidden !important;
 	position: relative;
@@ -27,25 +27,28 @@
 		z-index: -1;
 	}
 
-	.userPopoutInner-nv9Y92 {
+	.userPopoutInner_c69a7b {
 		&::before {
 			top: 4px;
 			left: 4px;
 		}
-		&:not(.userProfileInnerThemedNonPremium-2AJg-H) {
+
+		&:not(.userProfileInnerThemedNonPremium_c69a7b) {
 			.avatarPositionPremiumBanner-2nq2Fy {
 				top: 73px;
 				left: 21px;
 			}
-			.bannerSVGWrapper-2CLfzN {
+
+			.bannerSVGWrapper_b32cc2 {
 				margin: 2px 4px 4px 4px;
 				box-sizing: border-box;
 				width: calc(100% - 8px);
 				min-width: unset !important;
 			}
 		}
-		&.userProfileInnerThemedNonPremium-2AJg-H {
-			.overlayBackground-2aa7wt {
+
+		&.userProfileInnerThemedNonPremium_c69a7b {
+			.overlayBackground_c69a7b {
 				margin: 0 8px 8px;
 			}
 		}
@@ -54,42 +57,53 @@
 	.headerNormal-T_seeN {
 		background: transparent;
 	}
+
 	.headerPlaying-j0WQBV {
 		background: var(--gradient-50);
 	}
+
 	.headerXbox-3G-4PF {
 		background: rgb(var(--discord-xbox), 0.3);
 	}
+
 	.headerSpotify-zpWxgT {
 		background: hsl(var(--discord-spotify) / 0.3);
 	}
+
 	.headerStreaming-2FjmGz {
 		background: rgb(var(--discord-twitch), 0.3);
 	}
+
 	.wrapper-1VLyxH::after {
 		border-radius: 3px;
 	}
-	.activityName-3YXl6e,
+
+	._2ef4989efde1f4e4-activityName,
 	.headerTag-2pZJzA,
 	.nameNormal-2lqVQK,
 	.nameWrap-3Z4G_9,
-	.textRow-1sENuL {
+	._2ef4989efde1f4e4-textRow {
 		color: var(--text-normal);
 	}
+
 	.body-3iLsc4 {
 		background: transparent;
 	}
-	.roles-3vQPxb {
+
+	.roles_fa2f72 {
 		gap: 4px;
 	}
-	.roleRemoveButton-17oXnT {
+
+	.dfa8b6b94cddb191-roleRemoveButton {
 		position: unset;
-		& + .roleName-2ZJJYR {
+
+		& + ._48c1c0768f2a2421-roleName {
 			position: relative;
 			z-index: 1;
 		}
 	}
-	.role-2TIOKu {
+
+	.dfa8b6b94cddb191-role {
 		margin: 0;
 		position: relative;
 		border-radius: 10px;
@@ -98,11 +112,13 @@
 		padding: 6px;
 		border: none;
 	}
-	.roleCircle-3TFUOr {
+
+	._4f569b8941af22d1-roleCircle {
 		position: unset;
 		overflow: visible;
 		filter: none;
 		margin: 0;
+
 		&::before {
 			content: '';
 			position: absolute;
@@ -113,32 +129,39 @@
 			pointer-events: none;
 		}
 	}
-	.roleRemoveIcon-387wKV {
+
+	._48c1c0768f2a2421-roleRemoveIcon {
 		left: 12px;
 	}
-	.roleName-2ZJJYR {
+
+	._48c1c0768f2a2421-roleName {
 		margin: 0;
 		color: var(--text-focus);
 	}
+
 	.footer-1fjuF6 {
 		background: transparent;
 		border: none;
 	}
+
 	.quickMessage-1yeL4E {
 		background: var(--background-secondary);
 		border: none;
 		color: var(--text-normal);
+
 		&::placeholder {
 			color: rgb(255, 255, 255, 0.3);
 		}
 	}
+
 	.protip-YaFfgO {
 		display: none;
 	}
 
-	.userProfileInnerNonPremium-1XjSjn .overlayBackground-2aa7wt {
+	.userProfileInnerNonPremium-1XjSjn .overlayBackground_c69a7b {
 		background: var(--background-secondary);
 	}
+
 	&.theme-light .inputDefault-3FGxgL::placeholder {
 		color: #000;
 	}

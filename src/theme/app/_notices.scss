@@ -1,5 +1,5 @@
 #app-mount {
-	.notice-2HEN-u {
+	.notice__5fd4c {
 		height: 48px;
 		display: flex;
 		align-items: center;
@@ -7,20 +7,20 @@
 		border-radius: 0;
 		box-shadow: none;
 		padding-right: var(--TB-header-padding, 12px);
-		.button-1iHNQ2 {
+		.button__33db6 {
 			top: 0;
-			background: var(--white);
+			background: var(--foreground);
 			border-color: transparent;
 			color: #fff;
 			&:hover {
-				background: var(--white-double);
+				background: var(--foreground-double);
 			}
 			&:active {
-				background: var(--white-triple);
+				background: var(--foreground-triple);
 			}
 		}
 	}
-	.closeButton-30b1gR {
+	.closeButton__90904 {
 		right: unset;
 		left: 0;
 		height: 48px;

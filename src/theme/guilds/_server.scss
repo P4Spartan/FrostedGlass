@@ -1,11 +1,11 @@
-#app-mount .guilds-2JjMmN {
+#app-mount ._5e434347c823b592-guilds {
 	// Home button
-	.tutorialContainer-1pL9QS {
-		.childWrapper-1j_1ub {
+	._1f388bcaa446c0c8-tutorialContainer {
+		.childWrapper_a6ce15 {
 			background: var(--gradient);
 			background-color: transparent;
 		}
-		.listItem-3SmSlK:first-child .wrapper-3kah-n {
+		._650eb104245d257b-listItem:first-child .wrapper__8436d {
 			&::before {
 				content: '';
 				border-radius: 50%;
@@ -18,31 +18,31 @@
 				width: 100%;
 				transition: 0.2s ease;
 			}
-			&.selected-1Drb7Z::before {
+			&.selected_ae80f7::before {
 				border-radius: 30%;
 			}
 		}
-		.homeIcon-r0w4ny {
+		.homeIcon__560eb {
 			display: none;
 		}
 	}
-	.selected-1Drb7Z .acronym-2zrAHN {
-		background: var(--white-double);
+	.selected_ae80f7 .acronym_fb7739 {
+		background: var(--foreground-double);
 	}
 	// No icon
-	.acronym-2zrAHN {
-		background: var(--white);
+	.acronym_fb7739 {
+		background: var(--foreground);
 		&:hover {
-			background: var(--white-double);
+			background: var(--foreground-double);
 		}
 	}
 	// Add server/Discovery
 	[class*='circleIconButton'] {
-		background: var(--white);
+		background: var(--foreground);
 		color: rgb(var(--gradient-primary));
 		&.selected-ugP_am,
 		&:hover {
-			background: var(--white-double);
+			background: var(--foreground-double);
 			color: var(--text-normal);
 		}
 	}

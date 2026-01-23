@@ -1,17 +1,18 @@
 {
 	"name": "frostedglass",
-	"version": "1.0.0",
-	"description": "Display your picture of choice with adjustable blur and brightness.",
-	"repository": "https://github.com/DiscordStyles/FrostedGlass.git",
-	"author": "Gibbu <Gibbu_@hotmail.com>",
 	"license": "MIT",
 	"private": false,
 	"type": "module",
 	"scripts": {
-		"dev": "bd-scss dev",
-		"build": "bd-scss build"
+		"dev": "bun --bun bd-scss dev",
+		"build": "bun --bun bd-scss build",
+		"reroll": "bd-scss reroll"
 	},
 	"dependencies": {
-		"bd-scss": "^2.0.12"
+		"@discordstyles/classes": "^1.0.5",
+		"bd-scss": "^3.0.7"
+	},
+	"devDependencies": {
+		"prettier": "^3.7.4"
 	}
 }

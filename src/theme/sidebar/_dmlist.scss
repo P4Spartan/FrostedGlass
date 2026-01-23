@@ -1,3 +1,9 @@
-#app-mount .channel-1Shao0 .selected-3veCBZ {
-	background: var(--gradient);
+@use '@discordstyles/classes' as *;
+
+#{cls('mount')} {
+	//#region DM list
+	#{cls('sidebar.dms.user sidebar.dms.selected')} {
+		background: var(--gradient);
+	}
+	//#endregion DM list
 }
